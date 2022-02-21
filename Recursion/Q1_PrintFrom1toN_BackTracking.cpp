@@ -1,6 +1,6 @@
 
 #include <iostream>
-
+#include<string>
 using namespace std;
 
 void f(int n, int t){
@@ -8,14 +8,16 @@ void f(int n, int t){
         return;
         }
         f(n, t+1);
-        cout<< t << "a";
+        cout<< " ";
+        cout<< t;
 }
 
 int main()
 {
-    cout<<"Enter number";
+    cout<<"Enter number:  ";
     int n;
     cin>> n;
     f(n, 1);
+    
     return 0;
 }
