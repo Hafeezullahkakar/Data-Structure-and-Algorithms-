@@ -1,1 +1,1 @@
-0
+    // cout<< "fibonaci(" << num << ") = " << fibonaci(num) << endl;
